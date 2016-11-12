@@ -124,6 +124,7 @@
     <Compile Include="Assets\OVR\Editor\OVRGameView.cs" />
     <Compile Include="Assets\OVR\Editor\OVRPrefabs.cs" />
     <Compile Include="Assets\OVR\Editor\OVRShimLoader.cs" />
+    <Compile Include="Assets\Pixelplacement\iTweenPath\Editor\iTweenPathEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\LeapMotion\DemoResources\ScrollerText.txt" />

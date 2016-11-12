@@ -9,7 +9,11 @@ public class ButtonDemoGraphics : MonoBehaviour
 	{
 		Renderer[] renderers = GetComponentsInChildren<Renderer>();
 		Text[] texts = GetComponentsInChildren<Text>();
-		Image[] GUIimages = GetComponentsInChildren<Image>();
+
+		RawImage[] GUIimages = GetComponentsInChildren<RawImage>();
+		foreach(RawImage image in GUIimages){
+			image.enabled = status;
+		}
 		foreach (Renderer renderer in renderers)
 		{
 			renderer.enabled = status;
@@ -17,9 +21,7 @@ public class ButtonDemoGraphics : MonoBehaviour
 		foreach(Text text in texts){
 			text.enabled = status;
 		}
-		foreach(Image image in GUIimages){
-			image.enabled = status;
-		}
+
 		
 	}
 	
@@ -27,7 +29,7 @@ public class ButtonDemoGraphics : MonoBehaviour
 	{
 		Renderer[] renderers = GetComponentsInChildren<Renderer>();
 		Text[] texts = GetComponentsInChildren<Text>();
-		Image[] GUIimages = GetComponentsInChildren<Image>();
+		RawImage[] GUIimages = GetComponentsInChildren<RawImage>();
 		foreach (Renderer renderer in renderers)
 		{
 			renderer.material.color = color;
@@ -35,7 +37,7 @@ public class ButtonDemoGraphics : MonoBehaviour
 		foreach (Text text in texts){
 			text.color = color;
 		}
-		foreach(Image image in GUIimages){
+		foreach(RawImage image in GUIimages){
 			image.color = color;
 		}
 	}

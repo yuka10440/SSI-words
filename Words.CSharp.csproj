@@ -107,6 +107,7 @@
     <Compile Include="Assets\LeapMotion\DemoResources\Scripts\StemMesh.cs" />
     <Compile Include="Assets\LeapMotion\DemoResources\Scripts\VoxelSheet.cs" />
     <Compile Include="Assets\LeapMotion\Scripts\HandController.cs" />
+    <Compile Include="Assets\LeapMotion\Scripts\HandPosition.cs" />
     <Compile Include="Assets\LeapMotion\Scripts\Hands\DebugFinger.cs" />
     <Compile Include="Assets\LeapMotion\Scripts\Hands\DebugHand.cs" />
     <Compile Include="Assets\LeapMotion\Scripts\Hands\FingerModel.cs" />
@@ -123,6 +124,7 @@
     <Compile Include="Assets\LeapMotion\Scripts\LeapDeviceInfo.cs" />
     <Compile Include="Assets\LeapMotion\Scripts\LeapImageBasedMaterial.cs" />
     <Compile Include="Assets\LeapMotion\Scripts\LeapImageRetriever.cs" />
+    <Compile Include="Assets\LeapMotion\Scripts\Swipe_Gesture.cs" />
     <Compile Include="Assets\LeapMotion\Scripts\Tools\ToolModel.cs" />
     <Compile Include="Assets\LeapMotion\Scripts\Utils\ConfidenceTransparency.cs" />
     <Compile Include="Assets\LeapMotion\Scripts\Utils\DisconnectionNotice.cs" />
@@ -138,6 +140,7 @@
     <Compile Include="Assets\LeapMotion\Scripts\Utils\StretchToScreen.cs" />
     <Compile Include="Assets\LeapMotion\Scripts\Utils\TriggerDrawing.cs" />
     <Compile Include="Assets\LeapMotion\Scripts\Utils\Utils.cs" />
+    <Compile Include="Assets\LeapMotion\Scripts\handVelocity.cs" />
     <Compile Include="Assets\LeapMotion\Widgets\Scripts\Button\ButtonBase.cs" />
     <Compile Include="Assets\LeapMotion\Widgets\Scripts\Button\ButtonToggleBase.cs" />
     <Compile Include="Assets\LeapMotion\Widgets\Scripts\DemoScripts\ButtonDemoGraphics.cs" />
@@ -177,6 +180,18 @@
     <Compile Include="Assets\OVR\Scripts\Util\OVRScreenFade.cs" />
     <Compile Include="Assets\OVR\Scripts\Util\OVRUGUI.cs" />
     <Compile Include="Assets\OVR\Scripts\Util\OVRVisionGuide.cs" />
+    <Compile Include="Assets\Pixelplacement\iTweenPath\iTweenPath.cs" />
+    <Compile Include="Assets\PracticeScript\CanvasAutomation.cs" />
+    <Compile Include="Assets\PracticeScript\Drawer.cs" />
+    <Compile Include="Assets\PracticeScript\Dropdown.cs" />
+    <Compile Include="Assets\PracticeScript\SwipeItween.cs" />
+    <Compile Include="Assets\PracticeScript\iTweenBtnPath.cs" />
+    <Compile Include="Assets\PracticeScript\iTweenTest.cs" />
+    <Compile Include="Assets\PracticeScript\itween.cs" />
+    <Compile Include="Assets\PracticeScript\mouseFollow.cs" />
+    <Compile Include="Assets\PracticeScript\patternTest.cs" />
+    <Compile Include="Assets\PracticeScript\patternTest_2.cs" />
+    <Compile Include="Assets\PracticeScript\raycastTest.cs" />
     <Compile Include="Assets\Scripts\ChangeTextColor.cs" />
     <Compile Include="Assets\Scripts\Float.cs" />
     <Compile Include="Assets\Scripts\FloatText.cs" />
